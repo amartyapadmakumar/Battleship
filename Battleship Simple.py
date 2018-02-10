@@ -362,6 +362,7 @@ def guess_ships():
    while player1_hit_count<5 and player2_hit_count<5:
       while accept_guess==False:
          while accept_guess_row==False:
+            print()
             p1_guess_row=input("%s, guess row of battleship (0-9):" % (player1))
             try:
                p1_guess_row=int(p1_guess_row)
@@ -403,6 +404,7 @@ def guess_ships():
                           
       while accept_guess==False:
          while accept_guess_row==False:
+            print()
             p2_guess_row=input("%s, guess row of battleship (0-9):" % (player2))
             try:
                p2_guess_row=int(p2_guess_row)

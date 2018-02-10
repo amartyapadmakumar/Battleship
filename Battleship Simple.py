@@ -1,8 +1,7 @@
-'''Input player names'''
+
 player1=str(input("Player 1, enter your name:"))
 player2=str(input("Player 2, enter your name:"))
 
-'''Print Player 1's board'''
 board1=[]
 for i in range(10):
    z=['O']*10
@@ -17,7 +16,6 @@ print_board1(board1)
 
 print()
 
-'''Print Player 2's board'''
 board2=[]
 for i in range(10):
    z=['O']*10
